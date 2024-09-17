@@ -8,10 +8,10 @@ import 'react-datepicker/dist/react-datepicker.css'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM meeting",
+  title: "TeleSphere meeting",
   description: "Video Calling App",
   icons:{
-  icon:'/icons/logo.svg'
+  icon:'/icons/camera-lens.png'
   },
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
       appearance={
         {
           layout:{
-            logoImageUrl:'/icons/yoom-logo.svg',
+            logoImageUrl:'/icons/camera-lens.png',
             socialButtonsVariant:'iconButton',
           },
         

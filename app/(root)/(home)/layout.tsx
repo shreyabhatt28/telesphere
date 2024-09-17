@@ -5,10 +5,10 @@ import { Metadata } from "next";
 import React, { ReactNode } from "react";
 
     export const metadata: Metadata = {
-    title: "YOOM",
+    title: "TeleSphere",
     description: "Video Calling App",
     icons:{
-    icon:'/icons/logo.svg'
+    icon:'/icons/camera-lens.png'
     },
 };
 
